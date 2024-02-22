@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SBI Account Form</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            background: linear-gradient(to right, rgb(147, 208, 239) 5%, rgb(41, 24, 139) 15%, rgb(237, 239, 237) 60%),
+            url('https://i.pinimg.com/originals/6c/62/00/6c6200e900c95f808900a97fb91c23bf.gif');
+            background-size: cover;
+        }
+        h1{
+            text-align: center;
+        }
+        img{
+            margin-top: -50px;
+            margin-left: 20px;
+            width: 15%;
+        }
+        form{
+            margin-left: 200px;
+            margin-right: 200px;
+        }
+
+        select,
+        input[type="text"],
+        input[type="date"] {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #a998df;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+
+        fieldset {
+            border: 1px solid #a998df;
+            border-radius: 8px;
+            padding: 15px;
+            background-color: #f4eff1;
+        }
+
+        legend {
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+    <hr>
+    <h1>SBI</h1>
+    <img src="https://i.pinimg.com/564x/69/2c/51/692c5191e7e18ae0a272112105421b5c.jpg">
+    
+    <h2 style="text-align: center;">WELCOME 💁🏼‍♀️ </h2>
+    <h3 style="text-align: center;">Please Fill The Essential Details 🔏</h3>
+    <form>
+        <fieldset>
+            <legend>Personal Information</legend>
+
+            <input type="text" id="FirstName" name="FirstName" placeholder="First Name" required>
+
+            <input type="text" id="LastName" name="LastName" placeholder="Last Name" required>
+
+            <input type="text" id="D.O.B." name="D.O.B." placeholder="D.O.B." required>
+
+
+          
+
+            <input type="radio" id="male" name="gender" value="male"><label for="male">Male</label>
+            <input type="radio" id="female" name="gender" value="female"><label for="female">Female</label>
+            <input type="radio" id="other" name="gender" value="other"><label for="other">Other</label>
+
+            <input type="text" placeholder="Account Number" name="Account Number" required>
+
+            <input type="text" placeholder="CIF Number" name="CIF Number" required>
+
+            <input type="text" placeholder="Branch CODE" name="Branch CODE" required>
+
+            <input type="text" placeholder="Registered Mobile Number" name="Registered Mobile Number" required>
+
+            <input type="text" placeholder="Enter E-mail" name="Enter- E-mail" required>
+
+            <input type="text" placeholder="Enter Aadhar Number" name="Enter  Aadhar Numbe" required>
+
+            <input type="text" placeholder=" Enter Pan Card Number" name="Enter Pan Card Number " required>
+
+            <input type="text" placeholder=" Enter Contact Number" name="Enter  Contact Number " required>
+
+            <input type="text" placeholder=" Enter Resendtial Pin code" name="Enter Resendtial Pin code" required>
+
+            
+
+            <h5>Marital Status</h5>
+            <select name="Marital Status" size="1">
+                <option value="Married">Married </option>
+                <option value="Unmarried">Unmarried</option>
+                
+            </select>
+
+            
+
+            <h5>Select Your Account Type📍</h5>
+            <select name="accountType" size="1">
+                <option value="Savings Account">Savings Account </option>
+                <option value="Current Account">Current Account</option>
+            </select>
+
+            <h6>Select Your CITY 📍</h6>
+            <select name="city" size="1">
+                <option value="Mumbai">MUMBAI </option>
+                <option value="Pune">Pune</option>
+                <option value="Nashik">Nashik</option>
+                <option value="Aurangabad">Aurangabad</option>
+                <option value="Solapur">Solapur</option>
+                <option value="Amravati">Amravati</option>
+                <option value="Navi Mumbai">Navi Mumbai</option>
+                <option value="Kolhapur">Kolhapur</option>
+                <option value="Akola">Akola</option>
+                <option value="Jalgaon">Jalgaon</option>
+                <option value="Latur">Latur</option>
+                <option value="Dhule">Dhule</option>
+                <option value="Ahmednagar">Ahmednagar</option>
+                <option value="Chandrapur">Chandrapur</option>
+                <option value="Parbhani">Parbhani</option>
+                <option value="Jalna">Jalna</option>
+                <option value="Bhiwandi">Bhiwandi</option>
+                <option value="Nanded">Nanded</option>
+              
+            </select>
+            <input type="text" placeholder="Address" name="address" required>
+
+        <h7>Enter Your Password</h7>
+
+            <input type="text" id="Enter Password" name="Enter Password" placeholder="Enter Password" required>
+
+            <input type="text" id="Confirm Password" name="Confirm Password" placeholder="Confirm Password" required>
+        </fieldset>
+        
+        <button type="submit">Submit</button>
+
+        <hr>
+    </form>
+    
+</body>
+
+</html>
